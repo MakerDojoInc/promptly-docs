@@ -1,5 +1,24 @@
 title: Promptly Documentation
 description: Documentation for https://trypromptly.com platform
+logo: "/assets/images/logo.png"
 theme: just-the-docs
 
 url: https://docs.trypromptly.com
+
+aux_links:
+  "Promptly Website": https://trypromptly.com
+  "Promptly Blog": https://blog.trypromptly.com
+
+ga_tracking: G-WV60HC9CHD
+
+collections:
+  reference:
+    permalink: "/:collection/:path"
+    output: true
+
+just_the_docs:
+  collections:
+    reference:
+      name: Reference
+
+color_scheme: md
