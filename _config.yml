@@ -6,8 +6,7 @@ theme: just-the-docs
 url: https://docs.trypromptly.com
 
 aux_links:
-  "Promptly Website": https://trypromptly.com
-  "Promptly Blog": https://blog.trypromptly.com
+  "Back to Promptly": https://trypromptly.com
 
 ga_tracking: G-WV60HC9CHD
 
