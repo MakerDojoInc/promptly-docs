@@ -5,3 +5,4 @@ gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/9248/head"
 
 gem "just-the-docs", "0.4.1" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
+gem "jekyll-seo-tag"
