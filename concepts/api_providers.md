@@ -3,7 +3,7 @@ title: API Providers
 description: LLM provider integrations like OpenAI, Cohere, StabilityAI
 layout: default
 parent: Concepts
-nav_order: 2
+nav_order: 1
 ---
 ## API Providers
 
