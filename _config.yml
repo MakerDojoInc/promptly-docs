@@ -18,6 +18,7 @@ collections:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 just_the_docs:
   collections:
