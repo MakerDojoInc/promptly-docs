@@ -2,8 +2,8 @@
 title: Promptly Processors
 description: Custom promptly processors
 layout: default
-parent: API Processor
-nav_order: 1
+parent: Processor
+nav_order: 4
 has_children: true
 ---
 

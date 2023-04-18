@@ -2,7 +2,7 @@
 title: OpenAI Processors
 description: OpenAI integration on Promptly
 layout: default
-parent: API Processor
+parent: Processor
 nav_order: 1
 ---
 
@@ -86,6 +86,7 @@ The processor helps transcribe the audio into the input language.
 
 #### Input Parameters
 The processor takes in an audio file. The audio file can be in any of the following formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
+![Audio Transcription](../assets/images/whisper_audio_transcribe.gif)
 
 #### Output
 The processor returns a text, which is the transcription of the audio file.
@@ -99,6 +100,7 @@ This processor helps translate the audio into English.
 
 #### Input Parameters
 The processor takes in an audio file. The audio file can be in any of the following formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
+![Audio Translation](../assets/images/whisper_audio_translate.gif)
 
 #### Output
 The processor returns a text, which is the translation of the audio file.

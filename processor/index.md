@@ -1,5 +1,5 @@
 ---
-title: API Processor
+title: Processor
 description: LLM provider integrations like OpenAI, Cohere, StabilityAI
 layout: default
 has_children: true
