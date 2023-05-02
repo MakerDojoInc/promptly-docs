@@ -81,6 +81,3 @@ The session feature in Promptly allows you to store and retrieve chat history wh
 To continue the conversation where it left off, you can make subsequent calls to ```/api/apps/<app_id>/run/<session_id>``` with the session ID included in the URL. This includes the chat history up to that point and allows the AI to better understand the context of the conversation and provide more accurate responses.
 
 By using the session feature, you can improve the user experience for your customers and create more engaging chatbot interactions.
-### Conclusion
-
-In this guide, we've covered the basics of integrating with Promptly Endpoints and Apps using APIs. We hope you find this guide helpful in getting started with integrating Promptly with your own software applications. If you have any questions or feedback, please feel free to reach out to us at contact@trypromptly.com
