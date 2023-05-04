@@ -1,3 +1,10 @@
+---
+title: Template Variables
+layout: default
+parent: Processor
+nav_order: 8
+---
+
 Template variables are an important part of Promptly as they allow you to pass data between processors and make your workflow dynamic. There are two ways to use template variables in Promptly: selecting them in the UI or directly using liquidjs templates.
 
 ## Using Variables in the UI
