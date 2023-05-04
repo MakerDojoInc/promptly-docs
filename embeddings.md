@@ -14,14 +14,13 @@ Embeddings Search is a search algorithm that can be used to find matches between
 
 Some examples of Embeddings search applications
 
-* Summarization: With the help of embeddings search, you can quickly summarize large volumes of text data, such as research papers, news articles, or even customer reviews. This can help you save time and quickly identify the most important information within a document.
-
+* Summarization: With the help of embeddings search, you can quickly summarize large volumes of text data, such as research papers, news articles, or even customer reviews. 
+  
 * Human-like answering: Embeddings search can be used to train chatbots and virtual assistants to answer user queries in a more human-like manner. By generating high-quality embeddings for text data, the chatbot can easily match user queries to relevant information within a large database.
 
 * Recommendation systems: Embeddings search can be used to power recommendation systems, which can help businesses and organizations recommend products, services, or content to their customers based on their search history, preferences, and behavior.
 
 * Fraud detection: Embeddings search can also be used to detect fraudulent activity, such as in the case of financial fraud, insurance claims, or cybersecurity. By analyzing patterns within text data, embeddings search can help identify potentially fraudulent behavior and alert the relevant authorities.
-How to Use Embeddings Search on Promptly
 
 ### How to enable Embeddings?
 You can add this capability from App Creation page using Promptly's Text-Chat processor
