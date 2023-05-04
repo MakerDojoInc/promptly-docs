@@ -12,7 +12,7 @@ nav_order: 4
 
 The text chat processor makes it easy to develop chatbots on user provided data. It uses the ChatGPT processor and a datasource to restrict the chatGPT model to a specific domain. The text chat processor can be used to build chatbots for various domains such as customer support, sales, marketing, etc.
 
-Checkout our [AI-powered Search and Summarization](/embeddings.md).
+Checkout our [AI-powered Search and Summarization](/embeddings.html).
 
 ### URL Extractor
 The URL Extractor processor in Promptly allows you to extract text from a webpage by providing a URL as input. This can be useful for tasks like summarizing an article or extracting key information from a webpage. The processor uses machine learning models to extract relevant text from the webpage and outputs it as plain text. You can then use this text as input for subsequent processors in your workflow. Simply provide the URL you want to extract text from as input and the processor will return the extracted text.
