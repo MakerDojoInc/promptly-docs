@@ -1,7 +1,6 @@
 ---
 title: Template Variables
 layout: default
-parent: Processor
 nav_order: 8
 ---
 
