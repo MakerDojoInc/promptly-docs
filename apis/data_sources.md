@@ -3,7 +3,7 @@ title: Data Sources API
 description: APIs to manage data sources and data entries
 layout: default
 parent: APIs
-nav_order: 3
+nav_order: 2
 ---
 
 Sure, here's an updated version of the documentation for the datasource APIs with examples in curl code and a table for the parameters:

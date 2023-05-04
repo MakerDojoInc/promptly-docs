@@ -1,7 +1,8 @@
 ---
-title: API
+title: Apps/Endpoints Integration Guide
 layout: default
-nav_order: 5
+parent: APIs
+nav_order: 1
 ---
 # Promptly APIs Integration Guide
 
