@@ -1,5 +1,6 @@
 ---
-title: Apps/Endpoints Integration Guide
+title: Integration Guide
+description: Helps integrate with Promptly through apps and endpoints
 layout: default
 parent: APIs
 nav_order: 1

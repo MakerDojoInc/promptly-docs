@@ -1,12 +1,14 @@
 ---
-title: Data Sources API
+title: Data APIs
 description: APIs to manage data sources and data entries
 layout: default
 parent: APIs
 nav_order: 2
 ---
 
-Sure, here's an updated version of the documentation for the datasource APIs with examples in curl code and a table for the parameters:
+Data APIs allows you to easily create and manage data sources and their associated data entries. A data source is a collection of data entries that share the same structure, while a data entry contains a single set of data. After creating a data source, you can add data entries to it, or delete them.
+
+Each data source can have multiple data entries, but all entries within a data source should be of the same type. The type of data entry that can be added to a data source depends on the type of data source. For text data sources, entries can be added with a name and content. For URL data sources, entries can be added with a list of URLs. For file data sources, entries can be added with a base64 encoded file. For PDF data sources, entries can be added with a base64 encoded PDF file. 
 
 ## Data Sources API
 
@@ -115,10 +117,6 @@ Sure, here's an example documentation for data entries API including add_dataent
 ## Data Entries API
 
 This API allows you to add and delete data entries to a specific data source.
-
-### Authentication
-
-The API requires `promptly_token` authentication header.
 
 ### Add Data Entry
 
