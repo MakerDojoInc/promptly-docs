@@ -18,7 +18,7 @@ For more advanced uses, Promptly supports the use of liquidjs templates. Liquid 
 
 Here's an example of a liquidjs template that uses the input variable to generate a greeting message:
 
-```liquid
+```
 {% assign name = input.name %}
 {% if name %}
 Hello {{ name }}!
