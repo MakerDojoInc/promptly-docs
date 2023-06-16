@@ -1,7 +1,8 @@
 title: Promptly Documentation
 tagline: Promptly | Build AI Apps & Chatbots in Minutes
 description: Documentation for https://trypromptly.com platform
-logo: "/assets/images/logo.png"
+logo: "https://storage.googleapis.com/trypromptly-static/static/images/logo.png"
+favicon_ico: "https://storage.googleapis.com/trypromptly-static/static/images/icon.png"
 theme: just-the-docs
 
 url: https://docs.trypromptly.com
