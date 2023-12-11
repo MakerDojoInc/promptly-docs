@@ -91,6 +91,78 @@ To continue the conversation where it left off, you can make subsequent calls to
 
 By using the session feature, you can improve the user experience for your customers and create more engaging chatbot interactions.
 
+### Create Apps
+
+You can create apps by sending a `POST` request to /api/apps. An example API for creating a new app is below:
+
+```
+curl -X POST https://trypromptly.com/api/apps \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Token <PROMPTLY_TOKEN>' \
+    -d '{
+"name": "Chatbot with Internet lolmax",
+"slug": "chatbot-with-internet",
+"app_type_slug": "agent",
+"description": "A chatbot that can answer user's questions based on your own content. Searches internet if it cannot find answer in your data",
+"input_fields": [
+    {
+        "description": "Enter your question here",
+        "name": "task",
+        "title": "Question",
+        "type": "string"
+    }
+],
+"output_template": {
+    "markdown": "{{agent.content}}\n"
+},
+"processors": [
+    {
+        "id": "_inputs1",
+        "name": "Datasource",
+        "description": "Datasource to search for answers",
+        "provider_slug": "promptly",
+        "processor_slug": "text_chat",
+        "input": {
+            "question": ""
+        },
+        "config": {
+            "k": 8,
+            "model": "gpt-3.5-turbo",
+            "datasource": [],
+            "temperature": 0.7,
+            "instructions": "You are a chatbot that uses the provided context to answer the user's question.\nIf you cannot answer the question based on the provided context, say you don't know the answer.\nNo answer should go out of the provided input. If the provided input is empty, return saying you don't know the answer.\nKeep the answers terse.",
+            "chat_history_limit": 20,
+            "system_message_prefix": "You are a helpful chat assistant",
+            "use_azure_if_available": true,
+            "chat_history_in_doc_search": 0
+        },
+        "output_template": {
+            "markdown": "{{answer}}\n"
+        }
+    },
+    {
+        "id": "_inputs2",
+        "name": "Web Search",
+        "description": "Search the web for answers",
+        "provider_slug": "promptly",
+        "processor_slug": "web_search",
+        "input": {
+            "query": ""
+        },
+        "config": {
+            "search_engine": "Google",
+            "k": 5
+        },
+        "output_template": {
+            "markdown": "{% for result in results %}\n\nResult: {{ result.text }}\n\nURL: {{ result.source }}\n\n{% endfor %}\n"
+        }
+    }
+],
+}'
+```
+
+Please note that above API is for creating an agent with two tools, a search engine and a datasource search.
+
 ### Streaming API
 
 The streaming API allows you to receive data in chunks as it is being processed by the Promptly platform. This is useful for applications expect a large amount of output data, or if you want to consume the data in real-time.
