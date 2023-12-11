@@ -100,7 +100,7 @@ curl -X POST https://trypromptly.com/api/apps \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Token <PROMPTLY_TOKEN>' \
     -d '{
-"name": "Chatbot with Internet lolmax",
+"name": "Chatbot with Internet",
 "slug": "chatbot-with-internet",
 "app_type_slug": "agent",
 "description": "A chatbot that can answer user's questions based on your own content. Searches internet if it cannot find answer in your data",
